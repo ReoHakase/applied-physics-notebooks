@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "applied-physics-notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Reo Hakuta <st20152ro@gm.ibaraki-ct.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+SciPy = "^1.11.4"
+matplotlib = "^3.8.2"
+seaborn = "0.11"
+ptitprince = "^0.2.7"
+scikit-learn = "^1.3.2"
+numpy-stl = "^3.1.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+black = "^23.12.1"
+isort = "^5.13.2"
+ipykernel = "^6.28.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

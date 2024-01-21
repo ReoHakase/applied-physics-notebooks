@@ -1,0 +1,65 @@
+{
+  "name": "poetry3-poetry-pyenv",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  // 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
+  // "features": {},
+
+  // 👇 Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
+
+  // 👇 Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "",
+
+  // 👇 Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        "adam-bender.commit-message-editor",
+        "github.copilot",
+        "eamodio.gitlens",
+        "visualstudioexptteam.vscodeintellicode",
+        "christian-kohler.path-intellisense",
+        "oderwat.indent-rainbow",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "github.vscode-github-actions",
+        "GitHub.copilot-chat",
+        "GitHub.vscode-pull-request-github",
+        "unifiedjs.vscode-mdx",
+        "ms-python.isort",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "ms-toolsai.jupyter-renderers",
+        "mathematic.vscode-latex",
+        "ms-python.black-formatter",
+        "ms-python.flake8",
+        "wdhongtw.gpg-indicator",
+        "mechatroner.rainbow-csv",
+        "ms-azuretools.vscode-docker",
+        "mtsmfm.vscode-stl-viewer"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "installDirectlyFromGitHubRelease": true,
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-contrib/features/exa:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers-contrib/features/fish-apt-get:1": {},
+    "ghcr.io/devcontainers-contrib/features/starship:1": {
+      "version": "latest"
+    }
+  }
+
+  // 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+}
