@@ -1,5 +1,7 @@
 ## Double rigid-body pendulum
 
+https://github.com/ReoHakase/applied-physics-notebooks/assets/16751535/4420caa9-b1a8-4732-bed1-196a752b03e6
+
 $$
 \begin{align*}
 \frac{d\theta_1}{dt} &= \omega_2 \\
@@ -21,16 +23,16 @@ m_2l_1a_2 \omega_1 (\omega_1 - \omega_2) \sin(\theta_1 - \theta_2) + m_2l_1a_2 \
 $$
 
 Here,
-- $ \theta_1 $ represents the angle of pendulum 1 (unit: $rad$).
-- $ \theta_2 $ represents the angle of pendulum 2 (unit: $rad$).
-- $ \omega_1 $ represents the angular velocity of pendulum 1 (unit: $rad/s$).
-- $ \omega_2 $ represents the angular velocity of pendulum 2 (unit: $rad/s$).
-- $ m_1 $ represents the mass of rigid body 1 (unit: $kg$).
-- $ m_2 $ represents the mass of rigid body 2 (unit: $kg$).
-- $ a_1 $ represents the length of pendulum 1 (unit: $m$).
-- $ a_2 $ represents the length of pendulum 2 (unit: $m$).
-- $ l_1 $ represents the length of pendulum 1 (unit: $m$).
-- $ l_2 $ represents the length of pendulum 2 (unit: $m$).
-- $ g $ represents the acceleration due to gravity (unit: $m/s^2$).
-- $ I_1 $ represents the moment of inertia of pendulum 1 about the center of mass and the $z$ axis (unit: $kgm^2$).
-- $ I_2 $ represents the moment of inertia of pendulum 2 about the center of mass and the $z$ axis (unit: $kgm^2$).
+- $\theta_1$ represents the angle of pendulum 1 (unit: $rad$).
+- $\theta_2$ represents the angle of pendulum 2 (unit: $rad$).
+- $\omega_1$ represents the angular velocity of pendulum 1 (unit: $rad/s$).
+- $\omega_2$ represents the angular velocity of pendulum 2 (unit: $rad/s$).
+- $m_1$ represents the mass of rigid body 1 (unit: $kg$).
+- $m_2$ represents the mass of rigid body 2 (unit: $kg$).
+- $a_1$ represents the length of pendulum 1 (unit: $m$).
+- $a_2$ represents the length of pendulum 2 (unit: $m$).
+- $l_1$ represents the length of pendulum 1 (unit: $m$).
+- $l_2$ represents the length of pendulum 2 (unit: $m$).
+- $g$ represents the acceleration due to gravity (unit: $m/s^2$).
+- $I_1$ represents the moment of inertia of pendulum 1 about the center of mass and the $z$ axis (unit: $kgm^2$).
+- $I_2$ represents the moment of inertia of pendulum 2 about the center of mass and the $z$ axis (unit: $kgm^2$).
